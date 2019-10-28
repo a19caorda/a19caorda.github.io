@@ -42,7 +42,7 @@ main > ul li {
     border-radius: 5px;
     padding: 5px;
     background-color: #1e1e22;
-    box-shadow: 0px 8px calc(8px * 1.618) rgba(39, 39, 102, 0.1);
+    box-shadow: 0px 8px calc(8px * 1.618) rgba(255, 50, 50, 0.2);
     transition: box-shadow 440ms ease-in-out;
 }
 
@@ -58,7 +58,7 @@ main li > a {
 }
 
 li:hover {
-    box-shadow: 0px 8px calc(8px * 1.618 / 2) rgba(39, 39, 102, 0.1);
+    box-shadow: 0px 8px calc(8px * 1.618 / 2) rgba(255, 50, 50, 0.2);
 }
 
 footer {
