@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #main {
+            display: flex;
+            min-height: 70vh;
+        }
+
+        header,
+        footer {
+            background-color: grey;
+            height: 15vh;
+        }
+
+        #main>article {
+            flex: 1;
+        }
+
+        #main>nav,
+        #main>aside {
+            flex: 0 0 20vw;
+            background: beige;
+        }
+
+        #main>nav {
+            order: -1;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>Encabezado</header>
+    <div id="main">
+        <article>Articulo</article>
+        <nav>Nav</nav>
+        <aside>Aside</aside>
+    </div>
+    <footer>Footer</footer>
+</body>
+
+</html>
