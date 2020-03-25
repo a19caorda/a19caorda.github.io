@@ -90,6 +90,12 @@ svg {
     box-sizing: content-box;
 }
 
+svg#rss {
+    fill: #FFA500;
+    border: 3px solid #FFA500;
+    box-shadow: 0px 8px calc(8px * 1.618) rgba(255, 166, 0, 0.2);
+}
+
 svg#twitter {
     fill: #1da1f2;
     border: 3px solid #1da1f2;
