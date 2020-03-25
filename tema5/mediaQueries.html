@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Media queries</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        main,
+        header,
+        section,
+        aside,
+        footer {
+            margin: 0;
+            padding: 2.618rem;
+            box-sizing: border-box;
+            color: white;
+            border: 1px solid #000;
+        }
+
+        main {
+            background-color: black;
+        }
+
+        header {
+            background-color: red;
+        }
+
+        section {
+            background-color: green;
+            flex-grow: 2;
+        }
+
+        section.hero {
+            background-color: orange;
+        }
+
+        aside {
+            background-color: purple;
+            flex: 0 1 320px;
+        }
+
+        footer {
+            background-color: grey;
+        }
+
+        @media (min-width: 768px) {
+            .flex-container {
+                display: flex;
+            }
+        }
+
+        @media (min-width: 1440px) {
+            .flex-container {
+                margin: 0 2.5vw;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <main>Main
+        <header>Header lorem
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat, cum iste ex alias unde maiores
+            consequuntur culpa deleniti, qui et nulla rem? Eum ipsa voluptatem nam necessitatibus tempora, totam
+            repudiandae!
+        </header>
+        <section class="hero">Hero
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa qui ab, corporis magnam reprehenderit
+                delectus cupiditate sunt obcaecati voluptatem vel ducimus porro consectetur temporibus quaerat nostrum
+                eum. Sunt, sint ex?</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem odio fugit eum vitae aspernatur
+                pariatur aliquid saepe consequatur itaque minima, reprehenderit accusamus et explicabo animi recusandae
+                enim beatae repellat impedit.</p>
+        </section>
+        <div class="flex-container">
+            <section>Content <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio pariatur atque rem a.
+                    Fugit odio explicabo, magni molestias, aliquid laborum ullam obcaecati vitae unde quod autem culpa.
+                    Sint, distinctio obcaecati!</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus autem aspernatur cum ut. Numquam
+                    voluptatibus quod dolore est! Deleniti blanditiis dolores atque consectetur nesciunt. Nulla cum
+                    veniam possimus sit vitae.</p>
+                <p>Ipsam est assumenda fuga dolor dolorem repudiandae fugiat soluta laudantium at accusantium aliquam
+                    beatae quis odio non, autem sed quae veritatis quasi! Impedit placeat aliquid explicabo deleniti
+                    officiis? Neque, assumenda?</p>
+                <p>Cumque dolores atque facilis omnis alias possimus veritatis dolore ad error, consequatur similique
+                    sapiente voluptas aut reiciendis consectetur enim ipsa illum quasi tempora illo perferendis corrupti
+                    labore ullam velit. Dolorem.</p>
+                <p>Non aut nam at pariatur, quod placeat rem dignissimos dicta quaerat expedita alias praesentium, et
+                    magni laudantium, earum dolore? Dolor dicta vitae voluptas beatae provident quasi expedita corporis
+                    aliquid laudantium?</p>
+            </section>
+            <aside>Sidebar <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus ratione, commodi fugit
+                    voluptates repellendus qui? Odit qui adipisci dolore doloremque iusto nesciunt architecto deserunt
+                    eius, modi laudantium eveniet quas quisquam.</p>
+            </aside>
+        </div>
+        <footer>Footer <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ab expedita odio hic, facilis
+                placeat cupiditate debitis id fugiat perferendis non numquam ipsum sunt ratione cumque dignissimos
+                magni! Veritatis, natus.</p>
+        </footer>
+    </main>
+
+</body>
+
+</html>

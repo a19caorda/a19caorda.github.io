@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss>
+    <channel>
+        <title>Ejercicios Lenguaje de Marcas</title>
+        <item>
+            <title>Tema 1. Ejercicio 1</title>
+            <link>https://a19caorda.github.io/tema1/pr1.pdf</link>
+            <description>El primer tema de lenguaje de marcas</description>
+        </item>
+        <item>
+            <title>Tema 1. Ejercicio 2</title>
+            <link>https://a19caorda.github.io/tema1/pr2.pdf</link>
+            <description>El primer tema de lenguaje de marcas</description>
+        </item>
+    </channel>
+</rss>
