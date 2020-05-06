@@ -1,15 +1,88 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <rss>
     <channel>
         <title>Ejercicios Lenguaje de Marcas</title>
         <item>
-            <title>Tema 1. Ejercicio 1</title>
-            <link>https://a19caorda.github.io/tema1/pr1.pdf</link>
-            <description>El primer tema de lenguaje de marcas</description>
+            <title>Tema 7. Ejercicio 2</title>
+            <link>https://a19caorda.github.io/tema7/ej2_personas/personas.xml</link>
+            <description>
+                    Ejercicio evaluable del tema 7, en este ejercicio se debía crear un archivo xml con su 
+                    xsd para poder definir los elementos persona, con la información de su nombre, edad, 
+                    pais y telefono.
+            </description>
+        </item>
+        <item>
+            <title>Tema 7. Ejercicio 1</title>
+            <link>https://a19caorda.github.io/tema7/ej1_paises/paises.xml</link>
+            <description>
+                    Ejercicio evaluable del tema 7, en este ejercicio se debía crear un archivo xml con su 
+                    xsd para poder definir los elementos paises, con sus respectivas ciudades y su nombre.
+            </description>
+        </item>
+        <item>
+            <title>Tema 7</title>
+            <link>https://a19caorda.github.io/tema7</link>
+            <description>
+                    Resumen de todos los ejercicios del tema 7.
+            </description>
+        </item>
+        <item>
+            <title>Tema 6. Ejercicio 4</title>
+            <link>https://a19caorda.github.io/tema6/ejercicio4.xhtml</link>
+            <description>
+                    Ejercicio evaluable del tema 6, en este ejercicio se debía crear un archivo xhtml que hablara sobre los planetas.
+                </description>
+        </item>
+        <item>
+            <title>Tema 6. Ejercicio 3</title>
+            <link>https://a19caorda.github.io/tema6/ejercicio3.xhtml</link>
+            <description>
+                    Ejercicio evaluable del tema 6, en este ejercicio se debía corregir un archivo xhtml que no estaba bien formado.
+                </description>
+        </item>
+        <item>
+            <title>Tema 6</title>
+            <link>https://a19caorda.github.io/tema6</link>
+            <description>
+                    Resumen de todos los ejercicios del tema 6.
+            </description>
+        </item>
+        <item>
+            <title>Tema 5</title>
+            <link>https://a19caorda.github.io/tema5</link>
+            <description>
+                    Resumen de todos los ejercicios del tema 5.
+            </description>
+        </item>
+        <item>
+            <title>Tema 4</title>
+            <link>https://a19caorda.github.io/tema4</link>
+            <description>
+                    Resumen de todos los ejercicios del tema 4.
+            </description>
+        </item>
+        <item>
+            <title>Tema 3</title>
+            <link>https://a19caorda.github.io/tema3</link>
+            <description>
+                    Resumen de todos los ejercicios del tema 3.
+            </description>
+        </item>
+        <item>
+            <title>Tema 2</title>
+            <link>https://a19caorda.github.io/tema2</link>
+            <description>
+                    Resumen de todos los ejercicios del tema 2.
+            </description>
         </item>
         <item>
             <title>Tema 1. Ejercicio 2</title>
             <link>https://a19caorda.github.io/tema1/pr2.pdf</link>
+            <description>El primer tema de lenguaje de marcas</description>
+        </item>
+        <item>
+            <title>Tema 1. Ejercicio 1</title>
+            <link>https://a19caorda.github.io/tema1/pr1.pdf</link>
             <description>El primer tema de lenguaje de marcas</description>
         </item>
     </channel>
