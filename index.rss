@@ -3,6 +3,20 @@
     <channel>
         <title>Ejercicios Lenguaje de Marcas</title>
         <item>
+            <title>Tema 9. Ejercicio 1</title>
+            <link>https://a19caorda.github.io/tema9</link>
+            <description>
+                    ¿Cómo se instala Odoo? Encuentralo en este tutorial.
+            </description>
+        </item>
+        <item>
+            <title>Tema 9</title>
+            <link>https://a19caorda.github.io/tema9</link>
+            <description>
+                    Resumen de todos los ejercicios del tema 9.
+            </description>
+        </item>
+        <item>
             <title>Tema 7. Ejercicio 2</title>
             <link>https://a19caorda.github.io/tema7/ej2_personas/personas.xml</link>
             <description>
